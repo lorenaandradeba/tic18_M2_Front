@@ -1,0 +1,35 @@
+.container{
+    grid-gap:30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 100px;
+}
+#A1{
+    background-color: rgba(20, 196, 78, 0.637);
+    grid-area: 1 / 1 / 7 / 2;
+    text-align: center;
+}
+#A2{
+    background-color: rgb(230, 218, 62);
+    text-align: center;
+}
+#A3{
+    background-color: rgb(240, 92, 178);
+    
+    text-align: center;
+}
+#A4{
+    background-color: rgb(62, 192, 94);
+    text-align: center;
+}
+#A5{
+    background-color: rgb(216, 118, 126);
+    text-align: center;
+}
+#A6{
+    background-color: rgb(60, 240, 186);
+    text-align: center;
+    grid-column-end: -1;
+    grid-column-start: 2;
+    align-self: normal;
+}

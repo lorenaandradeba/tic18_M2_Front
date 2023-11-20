@@ -1,0 +1,39 @@
+.container{
+    grid-gap:15px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: 80px;
+}
+#A1{
+    background-color: rgba(4, 88, 32, 0.637);
+    grid-column-end: -2;
+    grid-column-start: 1;
+    text-align: center;
+}
+#cx1{
+    background-color: rgb(209, 30, 30);
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#cx2{  
+    background-color: rgb(209, 30, 30);
+    text-align: center;
+}
+#A4{
+    background-color: rgb(168, 158, 204);
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 3/6;
+}
+#A5{
+    background-color: rgb(83, 43, 46);
+    text-align: center;
+    grid-column: 1/3;
+}
+#lateral{
+    background-color: rgba(240, 68, 25, 0.712);
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
